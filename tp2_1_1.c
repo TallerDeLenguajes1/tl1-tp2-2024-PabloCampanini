@@ -8,7 +8,6 @@
 int main()
 {
     srand(time(NULL));
-    
     // Declaracion de variables
     int i;
     double vt[N];
