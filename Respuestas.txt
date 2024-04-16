@@ -1,0 +1,11 @@
+# Respuestas Trabajo Pactico N°2
+
+## Ejercicio 2
+
+### Apartado f)
+
+- Al cambiar a la rama main utilizando el comando git checkout main, no se visualizan los archivos creados en la linea de trabajo Opcion_2. Esto se debe a que cada rama en Git representa una linea de desarrollo independiente, y los cambios realizados en una rama no son visibles en otra hasta que se fusionen.
+
+- Al agregar el archivo Respuestas.txt en la rama main, realizar el commit y ejecutar el comando gitk --all por segunda vez, se visualiza como las ramas main y Opcion_2 estan separadas y como el commit de Respuesta.txt esta por encima del commit que hicimos del archivo tp2_1_2.c en la rama Opcion_2. Ademas se visualiza graficamente las ramas separadas y "paralelas".
+
+- Al utilizar el comando git merge Opcion_2 dentro del main, primero vemos que en el repositorio local ya aparecen los archivos creados en la rama Opcion_2. Luego, cuando ejecutamos el comando gitk --all podemos ver graficamente como se combinan las ramas en la rama principal main.
