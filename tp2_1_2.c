@@ -18,4 +18,6 @@ int main()
         *(p_vt + i) = 1 + rand() % 100;
         printf("%.2f \n", *(p_vt + i));
     }
+
+    return 0;
 }
