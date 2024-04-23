@@ -29,7 +29,7 @@ int main()
         almacen[i].cantidad = 1 + rand() % 8;
 
         // Variable aux para elegir indice de matriz
-        int indice = 1 + rand() % 6;
+        int indice = rand() % 6;
 
         almacen[i].tipo_cpu = strdup(tipos[indice]);
     }
